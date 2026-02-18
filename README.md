@@ -17,3 +17,7 @@ The structure of the file goes as follows:
 This program will parse all of the data into a directory with a folder for each character that will include .bin files for the character's 2 palettes, and .bin files each expression's uncompressed graphics and their respective OAM data.
 
 This can be used in tandem with my HMDS Portrait reconstructor!
+
+#HOW TO USE
+1. in main, edit the filepath to point to your personal face.bin file. the face.bin can and should be located in the same directory as the program for ease of use.
+2. edit the second filepath to reflect where you want the results to go. it will make a folder if it doesn't exist.
